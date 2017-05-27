@@ -1,0 +1,36 @@
+.id
+{
+  display: none;
+}
+.editableEstudiantes span{
+  display:block;
+}
+.editableEstudiantes span:hover{
+  background:url("../img/edit.png") 90% 50% no-repeat;
+  cursor:pointer;
+}
+.guardarDatosEstudiantes{
+  background:url("../img/save.png") 0 0 no-repeat;
+}
+a.enlaceEstudiantes{
+
+  display:inline-block;
+  width:24px;
+  height:24px;
+  margin:0 0 0 5px;
+  overflow:hidden;
+  text-indent:-999em;
+  vertical-align:middle;
+}
+.cancelarEstudiantes{
+  background:url("../img/cancel.png") 0 0 no-repeat;
+}
+td input{
+  height:24px;
+  width:150px;
+  border:1px solid #ddd;
+  padding:0 5px;
+  margin:0;
+  border-radius:6px;
+  vertical-align:middle;
+}
